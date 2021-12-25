@@ -1,0 +1,59 @@
+{
+	"author": "__No_name__",
+	"background": {
+		"page": "background.html",
+		"persistent": true
+	},
+	"browser_action": {
+		"default_icon": {
+			"19": "icons/gray-19.png",
+			"38": "icons/gray-38.png"
+		},
+		"default_popup": "pages/popup.html",
+		"default_title": "__No_name__"
+	},
+	"content_scripts": [
+		{
+			"all_frames": true,
+			"js": [
+				"lib/libs/css.escape.js",
+				"lib/utils/element-collapser.js",
+				"lib/utils/css-hits-counter.js",
+				"lib/libs/extended-css.js",
+				"lib/content-script/abu-content.js",
+				"lib/content-script/common-script.js",
+				"lib/content-script/content-script.js",
+				"lib/content-script/wrappers.js",
+				"lib/content-script/preload.js"
+			],
+			"match_about_blank": true,
+			"matches": ["http://*/*", "https://*/*"],
+			"run_at": "document_start"
+		}
+	],
+	"default_locale": "en",
+	"description": "__No_description__",
+	"icons": {
+		"128": "icons/128.png",
+		"16": "icons/16.png"
+	},
+	"manifest_version": 2,
+	"minimum_chrome_version": "21.0",
+	"name": "__No_name__",
+	"options_ui": {
+		"open_in_tab": true,
+		"page": "pages/options.html"
+	},
+	"permissions": [
+		"tabs",
+		"\u003Call_urls>",
+		"webRequest",
+		"webRequestBlocking",
+		"webNavigation",
+		"storage",
+		"unlimitedStorage",
+		"contextMenus"
+	],
+	"short_name": "__No_short_name__",
+	"version": "1.0"
+}

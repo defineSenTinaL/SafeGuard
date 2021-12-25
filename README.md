@@ -6,4 +6,4 @@ It uses powerful filters to block unnecessary things from webpages.
 It uses most trusted filter rules like fanboy, uBlock origin and some others to block contents.
 
 Special thanks to Open-Source Project to make it possible...
-Adblocker Ultimate, Ubloack Origin. etc
+Adblocker Ultimate, Ublock Origin. etc

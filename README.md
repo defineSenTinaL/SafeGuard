@@ -3,9 +3,6 @@
 
 ## Author
 - Aditya Kumavat
-- Harsh Kabir
-- Hari Dhawale
-- Amogh Naik
 
 ## Introduction
 SafeGuard is a browser extension that enhances your web browsing experience by blocking ads, trackers, and malware. This powerful extension utilizes trusted filter rules, including those from fanboy, uBlock Origin, and other reliable sources, to efficiently block unnecessary content from web pages.

@@ -18,6 +18,11 @@ SafeGuard is a browser extension that enhances your web browsing experience by b
 - **Easy-to-Use**: With a user-friendly interface, the extension is easy to install, configure, and use, even for non-technical users.
 - **Open-Source**: SafeGuard is an open-source project, thanks to the contributions and support from various other projects like Adblocker Ultimate and uBlock Origin.
 
+<br>
+<br>
+<img src="SafeGaurd.png" width="250px" />
+<img src="clear_ads.png" width="1080px"/>
+
 ## How to Get Started
 1. Install the SafeGuard browser extension from the respective extension store (Chrome Web Store, Firefox Add-ons, etc.).
 2. Once installed, the extension will automatically start blocking ads, trackers, and malware while you browse the web.
